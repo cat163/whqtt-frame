@@ -1,0 +1,30 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/whqtt_frame?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&serverTimezone=Asia/Shanghai&useSSL=false
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initial-size: 20 #连接池初始数
+      min-idle: 20     # 最小连接池数
+      max-active: 100  # 最大连接池数
+      max-wait: 60000  # 最大等待时间
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+        login-username: root
+        login-password: root
+      filter:
+        stat:
+          enabled: true # 打印sql
+          log-slow-sql: true
+          slow-sql-millis: 2000
+        wall:
+          enabled: true
+sql:
+  beauty:
+    show: false
+

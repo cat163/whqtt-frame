@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.whq.user.mapper.UserMapper">
+
+<!--    <resultMap id="BaseResultMap" type="com.whq.woj.model.entity.User">-->
+<!--        <id property="id" column="id" jdbcType="BIGINT"/>-->
+<!--        <result property="userAccount" column="userAccount" jdbcType="VARCHAR"/>-->
+<!--        <result property="userPassword" column="userPassword" jdbcType="VARCHAR"/>-->
+<!--        <result property="phone" column="phone" jdbcType="VARCHAR"/>-->
+<!--        <result property="unionId" column="unionId" jdbcType="VARCHAR"/>-->
+<!--        <result property="mpOpenId" column="mpOpenId" jdbcType="VARCHAR"/>-->
+<!--        <result property="userName" column="userName" jdbcType="VARCHAR"/>-->
+<!--        <result property="userAvatar" column="userAvatar" jdbcType="VARCHAR"/>-->
+<!--        <result property="userProfile" column="userProfile" jdbcType="VARCHAR"/>-->
+<!--        <result property="userTag" column="userTag" jdbcType="VARCHAR"/>-->
+<!--        <result property="userRole" column="userRole" jdbcType="VARCHAR"/>-->
+<!--        <result property="questionInfo" column="questionInfo" jdbcType="VARCHAR"/>-->
+<!--        <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>-->
+<!--        <result property="updateTime" column="updateTime" jdbcType="TIMESTAMP"/>-->
+<!--        <result property="isDelete" column="isDelete" jdbcType="TINYINT"/>-->
+<!--    </resultMap>-->
+
+<!--    <sql id="Base_Column_List">-->
+<!--        id,userAccount,userPassword,phone,-->
+<!--        unionId,mpOpenId,userName,-->
+<!--        userAvatar,userProfile,userTag,userRole,-->
+<!--        questionInfo,createTime,updateTime,-->
+<!--        isDelete-->
+<!--    </sql>-->
+</mapper>
